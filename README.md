@@ -1,4 +1,5 @@
 Instructions
+
 In this assignment, you're given the HTML and CSS for a standard static website with a variety of elements (text and images) nested within sections and wrappers. The layout is primarily fixed--that is, it uses pixels instead of percentages, ems, rems, or vh/vw for sizing. 
 
 Your task is to adjust the CSS of this project using responsive measurement units, scalable image properties, and media queries so that when you narrow the browser to tablet- and mobile-sized viewports, the width, size, and other styling elements adjust to be completely viewable and readable in all viewport sizes. Use Chrome Devtools to test your design as you go. If necessary, you can also use it to locate and create new breakpoint measurements to add to your media queries.
