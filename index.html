@@ -3,10 +3,33 @@
 
 <head>
    <meta charset="utf-8">
+
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+   <meta name="viewport" content="width=device-width" initial-scale="1.0">
+
    <title>Lab 5: Responsive Design</title>
+
    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet" type="text/css">
+
+   <!-- CDN link to SlickNav CSS  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.10/slicknav.min.css">
+
    <link rel="stylesheet" type="text/css" href="main.css">
+
+   <!-- CDN link to jQuery (necessary for SlickNav jQuery to work -->
+   <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+   <!-- CDN link to SlickNav jQuery -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.10/jquery.slicknav.min.js"></script>
+
+   <script type="text/javascript">
+      $(document).ready(function () {
+         $(".menubar").slicknav({
+            prependTo: "#mobilemenu"
+         });
+      });
+   </script>
 </head>
 
 <body>
@@ -23,6 +46,7 @@
    <!-- end header -->
 
    <!--start navigation area -->
+   <nav id="mobilemenu"></nav>
    <nav class="nav">
       <ul class="nav_list">
          <li class="nav_item"><a href="#">one</a></li>
@@ -148,7 +172,8 @@
             <ul>
                <li class="snippet">
                   <img class="snippet_thumbnail" src="images/grady.jpg" alt="my dog">
-                  <h3 class="snippet_title"><a href="#">If he lifted his head a little he could see his brown belly!</a></h3>
+                  <h3 class="snippet_title"><a href="#">If he lifted his head a little he could see his brown belly!</a>
+                  </h3>
                   <p>"How about if I sleep a little bit longer and forget all this nonsense", he thought, but that was
                      something he was unable to do because he was used to sleeping on his right, and in his present
                      state couldn't get into that position. However hard he threw himself onto his right, he always
@@ -157,7 +182,8 @@
                </li>
                <li class="snippet">
                   <img class="snippet_thumbnail" src="images/grady.jpg" alt="my dog">
-                  <h3 class="snippet_title"><a href="#">If he lifted his head a little he could see his brown belly!</a></h3>
+                  <h3 class="snippet_title"><a href="#">If he lifted his head a little he could see his brown belly!</a>
+                  </h3>
                   <p>"How about if I sleep a little bit longer and forget all this nonsense", he thought, but that was
                      something he was unable to do because he was used to sleeping on his right, and in his present
                      state couldn't get into that position. However hard he threw himself onto his right, he always
@@ -166,7 +192,8 @@
                </li>
                <li class="snippet">
                   <img class="snippet_thumbnail" src="images/grady.jpg" alt="my dog">
-                  <h3 class="snippet_title"><a href="#">If he lifted his head a little he could see his brown belly!</a></h3>
+                  <h3 class="snippet_title"><a href="#">If he lifted his head a little he could see his brown belly!</a>
+                  </h3>
                   <p>"How about if I sleep a little bit longer and forget all this nonsense", he thought, but that was
                      something he was unable to do because he was used to sleeping on his right, and in his present
                      state couldn't get into that position. However hard he threw himself onto his right, he always
@@ -175,7 +202,8 @@
                </li>
                <li class="snippet">
                   <img class="snippet_thumbnail" src="images/grady.jpg" alt="my dog">
-                  <h3 class="snippet_title"><a href="#">If he lifted his head a little he could see his brown belly!</a></h3>
+                  <h3 class="snippet_title"><a href="#">If he lifted his head a little he could see his brown belly!</a>
+                  </h3>
                   <p>"How about if I sleep a little bit longer and forget all this nonsense", he thought, but that was
                      something he was unable to do because he was used to sleeping on his right, and in his present
                      state couldn't get into that position. However hard he threw himself onto his right, he always

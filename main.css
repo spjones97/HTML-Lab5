@@ -1,4 +1,10 @@
 /* general */
+
+/* borders will be sucked into the size of the box*/
+* {
+   box-sizing: border-box;
+}
+
 body,
 html {
    margin: 0;
@@ -305,3 +311,20 @@ footer a {
 }
 
 /* PUT ALL YOUR MEDIA QUERIES HERE */
+
+.slicknav_menu {
+   display: none;
+}
+
+@media only screen and (max-width: 767px) {
+
+   /* Hite the #nav_menu at 767px */
+   #nav_menu {
+      display: none;
+   }
+
+   /* Display the slicknav version of the menu at 767px */
+   .slicknav_menu {
+      display: block;
+   }
+}
